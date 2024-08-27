@@ -1,0 +1,17 @@
+{
+	"name": "Cleaned_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "prep",
+			"table": "cleaned"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

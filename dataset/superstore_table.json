@@ -1,0 +1,17 @@
+{
+	"name": "superstore_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "raw",
+			"table": "superstores"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,27 @@
+{
+	"name": "OrderDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Blob_Storage",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "output"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "order",
+				"container": "output"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

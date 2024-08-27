@@ -16,15 +16,12 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "DelimitedTextSource",
+						"type": "ExcelSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
 							"wildcardFileName": "*",
 							"enablePartitionDiscovery": false
-						},
-						"formatSettings": {
-							"type": "DelimitedTextReadSettings"
 						}
 					},
 					"sink": {
@@ -46,7 +43,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "superstore",
+						"referenceName": "superstorexlxv",
 						"type": "DatasetReference"
 					}
 				],

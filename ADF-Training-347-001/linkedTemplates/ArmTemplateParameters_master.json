@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-Training-347-001"
+		},
+		"LS_Blob_Storage_connectionString": {
+			"value": ""
+		},
+		"LS_SQL_password": {
+			"value": ""
+		},
+		"LS_SQL_properties_typeProperties_server": {
+			"value": "sql-server-training-347-001.database.windows.net"
+		},
+		"LS_SQL_properties_typeProperties_database": {
+			"value": "DB-Training-347-001"
+		},
+		"LS_SQL_properties_typeProperties_userName": {
+			"value": "ADMINVASHU"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}

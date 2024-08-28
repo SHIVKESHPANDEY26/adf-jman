@@ -1,0 +1,12 @@
+{
+	"name": "ls_Rest_copy",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "http://localhost:5000/api/users",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
